@@ -1,4 +1,1 @@
-
-set(file main.c)
-
-add_executable(gameEngine ${file})
+add_subdirectory(Common)

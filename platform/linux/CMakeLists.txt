@@ -1,0 +1,2 @@
+add_executable(helloengine_xcb helloengine_xcb.cpp)
+target_link_libraries(helloengine_xcb xcb)

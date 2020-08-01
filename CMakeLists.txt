@@ -7,4 +7,9 @@ set(CMAKE_CXX_COMPILER ${compiler}/bin/clang++)
 
 project(gameEgine)
 
+include_directories(${PROJECT_SOURCE_DIR}/src/Interface)
+include_directories(${PROJECT_SOURCE_DIR}/src/Common)
+
 add_subdirectory(src)
+add_subdirectory(Empty)
+add_subdirectory(platform)
